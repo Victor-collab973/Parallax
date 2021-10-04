@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.home-page {
+    background-image: url(images/street.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.8;
+}
+
+.text1 { 
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    
+}
+
+.text1 span {
+    color: whitesmoke;
+    background-color: black;
+    padding: 20px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+.section-text, .section2, .section3  {
+    text-align: center;
+    background-color: gray;
+    opacity: 0.8;
+    padding: 50px;
+    font-size: 20px;
+    color: whitesmoke;
+}
+
+.section1 h1,
+.section2 h1,
+.section3 h1 {
+    padding-bottom: 10px;
+    font-size: 25px;
+    color: whitesmoke;
+}
+
+.img2 {
+    background-image: url(images/blure.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    opacity: 0.8;
+    position: relative;
+}
+
+.img3 {
+    background-image: url(images/building.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 40vh;
+    opacity: 0.8;
+    position: relative;
+}
+
+.img2 h1,
+.img3 h1 {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.final-img {
+    background-image: url(images/street1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+    opacity: 0.8;
+    position: relative;
+}
+
+.text2 { 
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+}
+
+.text2 span {
+    color: whitesmoke;
+    background-color: black;
+    padding: 20px;
+    font-size: 30px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    
+}
